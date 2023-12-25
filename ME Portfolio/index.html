@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mohamed Emam Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./build/css/demo.css">
+    <link rel="stylesheet" href="./build/css/intlTelInput.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./build/js/intlTelInput.js"></script>
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://media.licdn.com/dms/image/D4D03AQEyRWNkMKCTTw/profile-displayphoto-shrink_800_800/0/1700826848422?e=1709164800&v=beta&t=0Oqe1JB0UzmmcKe1XudxOk0bSvkRTOslRA6igZMc36k" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Mohamed Emam.</h1>
+    <p>Graphic Designer, FS Web Developer & Cyber Security Intern</p>
+    <img src="https://media.licdn.com/dms/image/D4D03AQEyRWNkMKCTTw/profile-displayphoto-shrink_800_800/0/1700826848422?e=1709164800&v=beta&t=0Oqe1JB0UzmmcKe1XudxOk0bSvkRTOslRA6igZMc36k" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Summary</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+      Detail-oriented and versatile freelance professional with expertise in Graphic Design, Web Full Stack Development, and Penetration Testing. Seeking a challenging remote internship in cybersecurity to leverage my diverse skill set in securing digital assets, developing robust web applications, and applying creative problem-solving in a dynamic and collaborative environment
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">HTML & CSS</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Ethical Hacking</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Linux</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">5+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">20+</span><br>
+        Meetings
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">30+</span><br>
+        Designs
+      </div>
+    </div>
+
+    <button onclick="downloadPDF()" class="w3-button w3-light-grey w3-padding-medium w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Full Stack Web Development Prices</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pyramid Package - Basic Web Development</li>
+          <li class="w3-padding-16">Responsive website design (up to 5 pages)</li>
+          <li class="w3-padding-16">HTML/CSS coding</li>
+          <li class="w3-padding-16">Basic JavaScript functionality</li>
+          <li class="w3-padding-16">Contact form integration</li>
+          <li class="w3-padding-16">
+            <h2>5,000 EGP</h2>
+            <span class="w3-opacity">per project</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Sphinx Package - Full Stack Development</li>
+          <li class="w3-padding-16">Includes Pyramid Package</li>
+          <li class="w3-padding-16">Database integration</li>
+          <li class="w3-padding-16">Backend development using a framework</li>
+          <li class="w3-padding-16">User authentication system</li>
+          <li class="w3-padding-16">
+            <h2>12,000 EGP</h2>
+            <span class="w3-opacity">per project</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pharaoh Package - E-commerce Solution</li>
+          <li class="w3-padding-16">Includes Sphinx Package features</li>
+          <li class="w3-padding-16">E-commerce functionality</li>
+          <li class="w3-padding-16">Payment gateway integration</li>
+          <li class="w3-padding-16">Inventory management system</li>
+          <li class="w3-padding-16">
+            <h2>20,000 EGP</h2>
+            <span class="w3-opacity">per package</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+
+<!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Cyber Security Pentesting Prices</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Sphinx Scan Package</li>
+          <li class="w3-padding-16">External vulnerability scanning</li>
+          <li class="w3-padding-16">Initial reconnaissance and information gathering</li>
+          <li class="w3-padding-16">Basic analysis report</li>
+          <li class="w3-padding-16">N/A</li>
+          <li class="w3-padding-16">
+            <h2>4,000 EGP</h2>
+            <span class="w3-opacity">per package</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Nile Network Intrusion Evaluation</li>
+          <li class="w3-padding-16">Includes Sphinx Scan Package</li>
+          <li class="w3-padding-16">Internal network penetration testing</li>
+          <li class="w3-padding-16">Service enumeration and vulnerability exploitation</li>
+          <li class="w3-padding-16">Detailed vulnerability report</li>
+          <li class="w3-padding-16">
+            <h2>10,000 EGP</h2>
+            <span class="w3-opacity">per package</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Cleopatra's Secure E-commerce Citadel</li>
+          <li class="w3-padding-16">Includes Nile Network Intrusion Evaluation features</li>
+          <li class="w3-padding-16">E-commerce application penetration testing</li>
+          <li class="w3-padding-16">Payment gateway security assessment</li>
+          <li class="w3-padding-16">Compliance review</li>
+          <li class="w3-padding-16">
+            <h2>18,000 EGP</h2>
+            <span class="w3-opacity">per package</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pyramid Power Red Team Engagement</li>
+          <li class="w3-padding-16">Tailored to simulate a real-world cyber attack</li>
+          <li class="w3-padding-16">Advanced penetration testing</li>
+          <li class="w3-padding-16">Detect and respond to cryptanalysis attempts</li>
+          <li class="w3-padding-16">In-depth analysis and comprehensive report</li>
+          <li class="w3-padding-16">
+            <h2>25,000+ EGP (Custom Quote)</h2>
+            <span class="w3-opacity">per package</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="https://scontent.fcai19-3.fna.fbcdn.net/v/t39.30808-1/247162625_2655843008044421_7067554016686413378_n.jpg?stp=c110.0.200.200a_dst-jpg_p200x200&_nc_cat=107&ccb=1-7&_nc_sid=5740b7&_nc_ohc=GFDyNis0FZ0AX_pEBRG&_nc_oc=AQmHYpuJQvw9VWI9uvsrnLw7Mu6lqnm7JLjK74toDt_N6qK-cprLpDprehwhpx9rSxo&_nc_ht=scontent.fcai19-3.fna&oh=00_AfBEN4sPO-3vDIMYFDJsiI5iVCMQnrQ7kV7laMy7atGWqw&oe=658EB698" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Osama Emam.</span> CEO at Mr.Chem.</p>
+    <p>Mohamed Emam Created The Best Responsive Shopping Website</p><br>
+    
+    <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half" style="margin-bottom:5px">
+        <figure style="border: thin #c0c0c0 solid;display: flex;flex-flow: column;padding: 5px;max-width: 500px;margin: auto;">
+          <a><img src="./Mr.Chem Website.png" style="width:100%"></a>
+          <figcaption style="background-color: #222;color: #fff;font: smaller sans-serif;padding: 3px;text-align: center;">Mr.Chem Shopping Website</figcaption>
+        </figure>
+      </div>
+
+      <div class="w3-half" style="margin-bottom:5px">
+        <figure style="border: thin #c0c0c0 solid;display: flex;flex-flow: column;padding: 5px;max-width: 500px;margin: auto;">
+          <a><img src="./Mr.Chem Website.png" style="width:100%"></a>
+          <figcaption style="background-color: #222;color: #fff;font: smaller sans-serif;padding: 3px;text-align: center;">Mr.Chem Shopping Website</figcaption>
+        </figure>
+      </div>
+
+            <div class="w3-half" style="margin-bottom:5px">
+        <figure style="border: thin #c0c0c0 solid;display: flex;flex-flow: column;padding: 5px;max-width: 500px;margin: auto;">
+          <a><img src="./Mr.Chem Website.png" style="width:100%"></a>
+          <figcaption style="background-color: #222;color: #fff;font: smaller sans-serif;padding: 3px;text-align: center;">Mr.Chem Shopping Website</figcaption>
+        </figure>
+      </div>
+
+            <div class="w3-half" style="margin-bottom:5px">
+        <figure style="border: thin #c0c0c0 solid;display: flex;flex-flow: column;padding: 5px;max-width: 500px;margin: auto;">
+          <a><img src="./Mr.Chem Website.png" style="width:100%"></a>
+          <figcaption style="background-color: #222;color: #fff;font: smaller sans-serif;padding: 3px;text-align: center;">Mr.Chem Shopping Website</figcaption>
+        </figure>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-section">
+      <p><a style="text-decoration: none;" href="https://maps.apple.com/?address=El Fady St, Libini Rd, Faisal, Giza, 12559 Egypt"><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>El Fady St, Libini Rd, Faisal, Giza, 12559 Egypt</a></p>
+      <p><a style="text-decoration: none;" href="tel:+201097870504"><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +201097870504</p></a>
+      <p><a style="text-decoration: none;" href="mailto:mohamedemam4078@gmail.com"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mohamedemam4078@gmail.com</p></a>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+    <form action="#" target="_self" class="form-contact">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" value=""></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email" value=""></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Phone (not required)" name="Phone" value=""></p>
+      <select class="w3-input w3-padding-16" name="Package">
+        <option selected>Select this if you don't want to buy any packages</option>
+        <optgroup label="Full Stack Web Development">
+          <option value="Pyramid Package - Basic Web Development">Pyramid Package - Basic Web Development - 5,000 EGP</option>
+          <option value="Sphinx Package - Full Stack Development">Sphinx Package - Full Stack Development - 12,000 EGP</option>
+          <option value="Pharaoh Package - E-commerce Solution">Pharaoh Package - E-commerce Solution - 20,000 EGP</option>
+        </optgroup>
+        <optgroup label="Cyber Security Pentesting">
+          <option value="Sphinx Scan Package">Sphinx Scan Package - 4,000 EGP</option>
+          <option value="Nile Network Intrusion Evaluation">Nile Network Intrusion Evaluation - 10,000 EGP</option>
+          <option value="Cleopatra's Secure E-commerce Citadel">Cleopatra's Secure E-commerce Citadel - 18,000 EGP</option>
+          <option value="Pyramid Power Red Team Engagement">Pyramid Power Red Team Engagement - 25,000+ EGP (Custom Quote)</option>
+        </optgroup>
+      </select>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject" value=""></p>
+      <!--<p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message" value=""></p>-->
+      <p><textarea class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message" value="" style="height: 150px;"></textarea></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" name="submit" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <a href="https://www.facebook.com/mohamedemam4078"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/mohamedemam4078/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://www.snapchat.com/add/mohamedemam5966"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/mohamedemam4078/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+ <!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+<script src="./js/send_mail.js"></script>
+<script src="./js/resume_download.js"></script>
+<script src="./js/isocode.js"></script>
+</body>
+</html>
